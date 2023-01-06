@@ -5,7 +5,7 @@ returns the floor of the float.
 """
 
 
-def floor(n: float) -> int
+def floor(n: float) -> int:
     """takes a float to the nearest smallest integer"""
     if n < 0:
         return (int(n) - 1)
