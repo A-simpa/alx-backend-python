@@ -15,7 +15,3 @@ async def wait_n(n: int, max_delay: int) -> List[float]:
         earliest = await coro
         n_list.append(earliest)
     return n_list
-    
-
-    
-  
