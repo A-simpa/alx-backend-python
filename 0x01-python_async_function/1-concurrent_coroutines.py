@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """defines the coruotine wait_n"""
 import asyncio
 
