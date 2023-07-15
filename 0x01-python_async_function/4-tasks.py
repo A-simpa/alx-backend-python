@@ -15,4 +15,3 @@ async def task_wait_n(n: int, max_delay: int) -> List[float]:
         n_list.append(await coro)
 
     return n_list
-    
